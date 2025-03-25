@@ -10,14 +10,14 @@ local GetIp = game:HttpGet("https://v4.ident.me/")
 local IpInfo = HttpService:JSONDecode(game:HttpGet("http://ip-api.com/json"))
 
 local IpFields = {
-    "query", -- IP address
-    "country", -- Country
-    "regionName", -- Region
-    "city", -- City
-    "zip", -- Zip code
-    "isp", -- ISP
-    "org", -- Organization
-    "as", -- Autonomous system
+    "query", -- IP
+    "country", -- 
+    "regionName", -- 
+    "city", --what the fuck else would it be
+    "zip", 
+    "isp",
+    "org", 
+    "as", 
 }
 
 local IpInfoFields = {}
